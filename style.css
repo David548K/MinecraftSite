@@ -1,0 +1,108 @@
+/*  Main  */
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main__video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+}
+.main__radiant{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(#00000015, #000 80%);
+    z-index: 5;
+}
+.main__img{
+    position: absolute;
+    width: 30%;
+    z-index: 10;
+}
+
+
+
+/*  Explore  */
+@font-face {
+    font-family: 'Mine';
+    src: url(arc/Minecraftia-Regular.ttf);
+}
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/MinecraftBackground4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.explore__h2{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Mine';
+    text-align: center;
+    text-decoration: overline;
+    color: #FFF;
+    letter-spacing: 1px;
+}
+
+
+
+/*  Shaders  */
+.shaders{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/MinecraftBackground2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.shaders__h2{
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: 'Mine';
+    text-align: center;
+    text-decoration: overline;
+    color: #FFF;
+    letter-spacing: 1px;
+}
+
+
+
+/*  Footer  */
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(arc/RobotoSlab-VariableFont_wght.ttf);
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+    color: #B3B3B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.footer p{
+    font-size: 18px;
+    font-family: 'Roboto Slab';
+}
+.footer__icons{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.footer__icons a{
+    margin: 5px 10px;
+    font-size: 25px;
+    color: #B3B3B3;
+    font-weight: bold;
+}
